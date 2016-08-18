@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.toolb.activity.AddActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:background="@color/title"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/btn_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/title"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+    <TextView
+        android:text="当前标签"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_one"
+            android:text="社会"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="8dp"
+            android:background="#746a6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_two"
+            android:text="军事"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="8dp"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="#746a6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_three"
+            android:text="时尚"
+            android:layout_marginLeft="8dp"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="#746a6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_four"
+            android:text="头条"
+            android:layout_marginLeft="8dp"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="#746a6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_five"
+            android:text="国际"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="8dp"
+            android:background="#746a6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_six"
+            android:text="国内"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginLeft="8dp"
+            android:background="#746a6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:text="添加兴趣标签"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/one"
+        android:text="社会"
+        android:textSize="30sp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <TextView
+        android:id="@+id/two"
+        android:text="军事"
+        android:textSize="30sp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <TextView
+        android:id="@+id/three"
+        android:text="时尚"
+        android:textSize="30sp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <TextView
+        android:id="@+id/four"
+        android:text="头条"
+        android:textSize="30sp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <TextView
+        android:id="@+id/five"
+        android:text="国际"
+        android:textSize="30sp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <TextView
+        android:id="@+id/six"
+        android:text="国内"
+        android:textSize="30sp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+</LinearLayout>
